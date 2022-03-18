@@ -2,10 +2,10 @@
 class Database{
  
     // specify your own database credentials
-    private $host = "localhost";
+    private $host = "database-1.cezctaqdaz2e.us-east-2.rds.amazonaws.com";
     private $db_name = "hospital_db";
-    private $username = "root";
-    private $password = "";
+    private $username = "admin";
+    private $password = "Maneesh10";
     public $conn;
  
     // get the database connection
