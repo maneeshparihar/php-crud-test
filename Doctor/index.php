@@ -37,7 +37,7 @@
                 <!-- /.box -->
               </div>
             </div>';
-  include('../master.php');
+  include('../main/master.php');
 ?>
 <!-- page script -->
 <script>
@@ -79,7 +79,7 @@
             success: function (result) {
                 if (result['status'] == true) {
                     alert("Successfully Removed Doctor!");
-                    window.location.href = '/medibed/doctor';
+                    window.location.href = '../doctor';
                 }
                 else {
                     alert(result['message']);

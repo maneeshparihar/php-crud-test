@@ -57,7 +57,7 @@
                 </div>
               </div>';
               
-  include('../master.php');
+  include('../main/master.php');
 ?>
 <script>
     $(document).ready(function(){
@@ -98,8 +98,8 @@
             },
             success: function (result) {
                 if (result['status'] == true) {
-                    alert("Successfully Updated Doctor!");
-                    window.location.href = '/medibed/doctor';
+                    // alert("Successfully Updated Doctor!");
+                    window.location.href = '../doctor';
                 }
                 else {
                     alert(result['message']);

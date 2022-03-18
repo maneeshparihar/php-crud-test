@@ -56,7 +56,7 @@
                   <!-- /.box -->
                 </div>
               </div>';
-  include('../master.php');
+  include('../main/master.php');
 ?>
 <script>
   function AddDoctor(){
@@ -79,8 +79,8 @@
             },
             success: function (result) {
                 if (result['status'] == true) {
-                    alert("Successfully Added New Doctor!");
-                    window.location.href = '/medibed/doctor';
+                    // alert("Successfully Added New Doctor!");
+                    window.location.href = '../doctor';
                 }
                 else {
                     alert(result['message']);
